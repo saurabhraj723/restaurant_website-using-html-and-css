@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./assets/5');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Playfair', serif;
+
+}
+
+.bot {
+    /* border: solid blue; */
+    /* border-top: 2px solid blue;
+    border-bottom: 2px solid blue; */
+    margin: 111px;
+    width: 36%;
+    padding: 26px 35px;
+}
+
+#id1 {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    padding: 2px;
+}
+
+#id1 img {
+    width: 136px;
+    background-color: white;
+    filter: invert(90%);
+}
+
+#id1 div {
+    color: white;
+    background-color: black;
+
+    padding: 5px;
+    text-align: center;
+    line-height: 19px;
+    font-size: 20px;
+}
+
+#id2 {
+    display: block;
+    width: 41%;
+    margin: 20px auto;
+
+    /* border: 2px solid rgb(174, 254, 13); */
+
+
+}
+
+#id3 {
+    display: inline-block;
+    /* border: 2px solid brown; */
+    position: absolute;
+    right: 34px;
+    top: 20px;
+
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-size: 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: orange;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: rgb(109, 109, 109);
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid rgb(109, 109, 109);
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Playfair', serif;
+}
+
+.btn:hover {
+    background-color: darkgrey;
+}
+h1{
+    color: rgb(185 105 187);
+    position: absolute;
+    top: 144px;
+    left:178px;
+}
+.for input{
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin: 2px auto ;
+    padding: 9px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: 'Playfair', serif;
+    border-radius: 10px;
+}
+.for button{
+    display: block;
+    width: 33%;
+    margin: auto;
+}
